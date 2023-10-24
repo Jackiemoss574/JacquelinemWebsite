@@ -1,0 +1,43 @@
+
+Body{color: antiquewhite;}
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.mission{
+    text-align: center;
+}
+
+.websiteContents{
+    text-align: center;
+}
+
+
+.navigation{
+    text-align: center;
+}
+
+
+.content {
+    min-height: calc(100% - 60px); /* Adjust based on the height of the footer */
+    padding: 20px;
+}
+
+footer {
+    background-color: #e7ae11;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+body {
+    background-image: url('./Images/Nature background place holder.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
