@@ -1,5 +1,5 @@
 
-Body{color: antiquewhite;}
+Body{color: rgb(67, 12, 138);}
 body, html {
     height: 100%;
     margin: 0;
@@ -36,7 +36,7 @@ footer {
 }
 
 body {
-    background-image: url('./Images/Nature background place holder.jpg');
+    background-image: url(./Images/Nature\ background\ place\ holder.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
