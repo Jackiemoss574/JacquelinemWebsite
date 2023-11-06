@@ -1,4 +1,5 @@
 
+<<<<<<< Updated upstream
 Body{color: rgb(67, 12, 138);}
 body, html {
     height: 100%;
@@ -40,4 +41,86 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+=======
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: rgb(225, 225, 225);
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(./Images/Esthetic\ coding\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex; /* Use flexbox to control layout */
+    flex-direction: column; /* Stack children vertically */
+    min-height: 100vh; /* Ensure the body covers the entire viewport height */
+}
+
+header {
+    text-align: center;
+    background-color:none; 
+    padding: 10px 0; 
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.hpheader {
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    flex-grow: 1; /* Allow main content to take up remaining vertical space */
+    padding: 20px;
+    text-align: center; justify-items: center;
+}
+
+
+/* Style your section containers */
+.mission, .explanation, .info1 {
+    background-color: #fff; /* Background color for the sections */
+    padding: 20px; /* Add spacing around the content */
+    margin: 20px 0; /* Add spacing between sections */
+    border: 1px solid #ccc; /* Add a border to separate sections */
+    border-radius: 5px; /* Rounded corners for the sections */
+    text-align: center; /* Center the text */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Style the section headings */
+.mission h2, .explanation h2, .info1 h2 {
+    font-size: 24px; /* Increase font size for headings */
+    color: #333; /* Text color for headings */
+    margin-bottom: 10px; /* Add space below headings */
+}
+
+/* Style the section paragraphs */
+.mission p, .explanation p, .info1 p {
+    font-size: 16px; /* Font size for paragraph text */
+    color: #666; /* Text color for paragraphs */
+}
+
+
+
+
+
+footer {
+    background-color: none;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+>>>>>>> Stashed changes
 }
