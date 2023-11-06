@@ -1,0 +1,94 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #E6E6FA; /* Lavender color */
+}
+
+header {
+    background-color: #5B4770; /* Placeholder for Velvet Purple */
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.navigation ul {
+    list-style-type: none;
+    padding: 10px 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: #FFD700; /* Gold color */
+    font-size: 15px;
+    padding: 10px 20px;
+    display: block;
+}
+
+.navigation li a.active, .navigation li a:hover {
+    color: #E6E6FA; /* Lavender color for hover and active link */
+}
+
+.main-heading {
+    text-align: center;
+    color: #5B4770; /* Placeholder for Velvet Purple */
+    padding-top: 70px; /* Add space to account for fixed header */
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px; /* Additional space to ensure content is visible below header */
+}
+
+.hobby {
+    background-color: #5B4770; /* Placeholder for Velvet Purple */
+    color: #FFD700; /* Placeholder for Rich Gold */
+    padding: 20px;
+    margin: 20px 0;
+    width: 80%;
+    border-radius: 10px; /* Optional, for aesthetics */
+}
+
+.hobby h2 {
+    font-family: 'Brush Script MT', cursive; /* Replace with 'Elegant Script' if you have it */
+    margin-bottom: 15px;
+}
+
+.hobby-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #5B4770; /* Placeholder for Velvet Purple */
+    color: #FFD700; /* Gold color */
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+footer a {
+    color: #FFD700; /* Gold color */
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+footer a:hover {
+    color: #E6E6FA; /* Lavender color for hover */
+}
